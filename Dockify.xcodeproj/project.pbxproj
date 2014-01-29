@@ -10,14 +10,29 @@
 		FA2D8E771895E0F400FFAD29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2D8E761895E0F400FFAD29 /* Cocoa.framework */; };
 		FA2D8E811895E0F400FFAD29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2D8E7F1895E0F400FFAD29 /* InfoPlist.strings */; };
 		FA2D8E831895E0F400FFAD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D8E821895E0F400FFAD29 /* main.m */; };
-		FA2D8E871895E0F400FFAD29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA2D8E851895E0F400FFAD29 /* Credits.rtf */; };
 		FA2D8E8A1895E0F400FFAD29 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D8E891895E0F400FFAD29 /* DKAppDelegate.m */; };
-		FA2D8E8D1895E0F400FFAD29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2D8E8B1895E0F400FFAD29 /* MainMenu.xib */; };
 		FA2D8E8F1895E0F400FFAD29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D8E8E1895E0F400FFAD29 /* Images.xcassets */; };
 		FA2D8E961895E0F400FFAD29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2D8E951895E0F400FFAD29 /* XCTest.framework */; };
 		FA2D8E971895E0F400FFAD29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2D8E761895E0F400FFAD29 /* Cocoa.framework */; };
 		FA2D8E9F1895E0F400FFAD29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2D8E9D1895E0F400FFAD29 /* InfoPlist.strings */; };
 		FA2D8EA11895E0F400FFAD29 /* DockifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D8EA01895E0F400FFAD29 /* DockifyTests.m */; };
+		FA2D8EB31895E3B300FFAD29 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2D8EB21895E3B300FFAD29 /* main.c */; };
+		FA2D8EB71895E3B300FFAD29 /* dockify_loader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA2D8EB61895E3B300FFAD29 /* dockify_loader.1 */; };
+		FA2D8EC31895E53800FFAD29 /* inject.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2D8EC11895E53800FFAD29 /* inject.c */; };
+		FA2D8EC71895E5B900FFAD29 /* com.alexzielenski.dockify.loader in Copy Loader */ = {isa = PBXBuildFile; fileRef = FA2D8EAE1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */; };
+		FA88A1081899B322007C4171 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = FA88A1071899B322007C4171 /* Credits.html */; };
+		FA88A10A1899B415007C4171 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA88A1091899B415007C4171 /* WebKit.framework */; };
+		FAD1DE3D1895F22800AB6315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD1DE3B1895F22800AB6315 /* InfoPlist.strings */; };
+		FAD1DE3F1895F22800AB6315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1DE3E1895F22800AB6315 /* main.m */; };
+		FAD1DE641895F24F00AB6315 /* dockify-listener.app in Copy Listener */ = {isa = PBXBuildFile; fileRef = FAD1DE361895F22800AB6315 /* dockify-listener.app */; };
+		FAD1DE6A1895F92900AB6315 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2D8E761895E0F400FFAD29 /* Cocoa.framework */; };
+		FAD1DE6B1895FBA500AB6315 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2D8EBF1895E42F00FFAD29 /* Carbon.framework */; };
+		FAD1DE701895FE0900AB6315 /* dockify.dylib in Copy Payload */ = {isa = PBXBuildFile; fileRef = FAD1DE6D1895FDEF00AB6315 /* dockify.dylib */; };
+		FADBB2C71895EAAE0062ADDD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADBB2C61895EAAE0062ADDD /* Security.framework */; };
+		FADBB2C91895EAB60062ADDD /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADBB2C81895EAB60062ADDD /* ServiceManagement.framework */; };
+		FADBB2CB1895EBFF0062ADDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADBB2CA1895EBFF0062ADDD /* MainMenu.xib */; };
+		FADBB2CE1895ECB20062ADDD /* DKInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = FADBB2CD1895ECB20062ADDD /* DKInstaller.m */; };
+		FADBB2D11895ED310062ADDD /* DKConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FADBB2D01895ED310062ADDD /* DKConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +43,67 @@
 			remoteGlobalIDString = FA2D8E721895E0F400FFAD29;
 			remoteInfo = Dockify;
 		};
+		FA2D8EC41895E5A200FFAD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2D8E6B1895E0F400FFAD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2D8EAD1895E3B300FFAD29;
+			remoteInfo = "dockify-loader";
+		};
+		FAD1DE651895F40100AB6315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2D8E6B1895E0F400FFAD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD1DE351895F22800AB6315;
+			remoteInfo = "dockify-listener";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA2D8EAC1895E3B300FFAD29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FA2D8EB71895E3B300FFAD29 /* dockify_loader.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA2D8EC61895E5B500FFAD29 /* Copy Loader */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				FA2D8EC71895E5B900FFAD29 /* com.alexzielenski.dockify.loader in Copy Loader */,
+			);
+			name = "Copy Loader";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1DE631895F24100AB6315 /* Copy Listener */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				FAD1DE641895F24F00AB6315 /* dockify-listener.app in Copy Listener */,
+			);
+			name = "Copy Listener";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1DE6F1895FDFF00AB6315 /* Copy Payload */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				FAD1DE701895FE0900AB6315 /* dockify.dylib in Copy Payload */,
+			);
+			name = "Copy Payload";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FA2D8E731895E0F400FFAD29 /* Dockify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dockify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,16 +115,39 @@
 		FA2D8E801895E0F400FFAD29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA2D8E821895E0F400FFAD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA2D8E841895E0F400FFAD29 /* Dockify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dockify-Prefix.pch"; sourceTree = "<group>"; };
-		FA2D8E861895E0F400FFAD29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FA2D8E881895E0F400FFAD29 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
 		FA2D8E891895E0F400FFAD29 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
-		FA2D8E8C1895E0F400FFAD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FA2D8E8E1895E0F400FFAD29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA2D8E941895E0F400FFAD29 /* DockifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2D8E951895E0F400FFAD29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FA2D8E9C1895E0F400FFAD29 /* DockifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DockifyTests-Info.plist"; sourceTree = "<group>"; };
 		FA2D8E9E1895E0F400FFAD29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA2D8EA01895E0F400FFAD29 /* DockifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockifyTests.m; sourceTree = "<group>"; };
+		FA2D8EAE1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.alexzielenski.dockify.loader; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2D8EAF1895E3B300FFAD29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA2D8EB21895E3B300FFAD29 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FA2D8EB51895E3B300FFAD29 /* dockify-loader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dockify-loader-Prefix.pch"; sourceTree = "<group>"; };
+		FA2D8EB61895E3B300FFAD29 /* dockify_loader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dockify_loader.1; sourceTree = "<group>"; };
+		FA2D8EBF1895E42F00FFAD29 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		FA2D8EC11895E53800FFAD29 /* inject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inject.c; sourceTree = "<group>"; };
+		FA2D8EC21895E53800FFAD29 /* inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inject.h; sourceTree = "<group>"; };
+		FA88A1071899B322007C4171 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		FA88A1091899B415007C4171 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FAB4B5AC18960AB20000EEDA /* loader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = loader.plist; sourceTree = "<group>"; };
+		FAD1DE361895F22800AB6315 /* dockify-listener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dockify-listener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD1DE3A1895F22800AB6315 /* dockify-listener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dockify-listener-Info.plist"; sourceTree = "<group>"; };
+		FAD1DE3C1895F22800AB6315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD1DE3E1895F22800AB6315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD1DE401895F22800AB6315 /* dockify-listener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dockify-listener-Prefix.pch"; sourceTree = "<group>"; };
+		FAD1DE6D1895FDEF00AB6315 /* dockify.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = dockify.dylib; sourceTree = "<group>"; };
+		FAD577491896042900D5D50C /* launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = launchd.plist; sourceTree = "<group>"; };
+		FADBB2C61895EAAE0062ADDD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FADBB2C81895EAB60062ADDD /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		FADBB2CA1895EBFF0062ADDD /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		FADBB2CC1895ECB20062ADDD /* DKInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKInstaller.h; sourceTree = "<group>"; };
+		FADBB2CD1895ECB20062ADDD /* DKInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKInstaller.m; sourceTree = "<group>"; };
+		FADBB2CF1895ED310062ADDD /* DKConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKConstant.h; sourceTree = "<group>"; };
+		FADBB2D01895ED310062ADDD /* DKConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +155,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA88A10A1899B415007C4171 /* WebKit.framework in Frameworks */,
+				FADBB2C91895EAB60062ADDD /* ServiceManagement.framework in Frameworks */,
+				FADBB2C71895EAAE0062ADDD /* Security.framework in Frameworks */,
 				FA2D8E771895E0F400FFAD29 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +171,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA2D8EAB1895E3B300FFAD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1DE331895F22800AB6315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD1DE6B1895FBA500AB6315 /* Carbon.framework in Frameworks */,
+				FAD1DE6A1895F92900AB6315 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +195,8 @@
 			children = (
 				FA2D8E7C1895E0F400FFAD29 /* Dockify */,
 				FA2D8E9A1895E0F400FFAD29 /* DockifyTests */,
+				FA2D8EB11895E3B300FFAD29 /* dockify-loader */,
+				FAD1DE381895F22800AB6315 /* dockify-listener */,
 				FA2D8E751895E0F400FFAD29 /* Frameworks */,
 				FA2D8E741895E0F400FFAD29 /* Products */,
 			);
@@ -88,6 +207,8 @@
 			children = (
 				FA2D8E731895E0F400FFAD29 /* Dockify.app */,
 				FA2D8E941895E0F400FFAD29 /* DockifyTests.xctest */,
+				FA2D8EAE1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */,
+				FAD1DE361895F22800AB6315 /* dockify-listener.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +216,13 @@
 		FA2D8E751895E0F400FFAD29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA88A1091899B415007C4171 /* WebKit.framework */,
+				FADBB2C81895EAB60062ADDD /* ServiceManagement.framework */,
+				FADBB2C61895EAAE0062ADDD /* Security.framework */,
+				FA2D8EBF1895E42F00FFAD29 /* Carbon.framework */,
 				FA2D8E761895E0F400FFAD29 /* Cocoa.framework */,
 				FA2D8E951895E0F400FFAD29 /* XCTest.framework */,
+				FA2D8EAF1895E3B300FFAD29 /* Foundation.framework */,
 				FA2D8E781895E0F400FFAD29 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -117,7 +243,12 @@
 			children = (
 				FA2D8E881895E0F400FFAD29 /* DKAppDelegate.h */,
 				FA2D8E891895E0F400FFAD29 /* DKAppDelegate.m */,
-				FA2D8E8B1895E0F400FFAD29 /* MainMenu.xib */,
+				FADBB2CC1895ECB20062ADDD /* DKInstaller.h */,
+				FADBB2CD1895ECB20062ADDD /* DKInstaller.m */,
+				FADBB2CF1895ED310062ADDD /* DKConstant.h */,
+				FADBB2D01895ED310062ADDD /* DKConstant.m */,
+				FA88A1071899B322007C4171 /* Credits.html */,
+				FADBB2CA1895EBFF0062ADDD /* MainMenu.xib */,
 				FA2D8E8E1895E0F400FFAD29 /* Images.xcassets */,
 				FA2D8E7D1895E0F400FFAD29 /* Supporting Files */,
 			);
@@ -131,7 +262,6 @@
 				FA2D8E7F1895E0F400FFAD29 /* InfoPlist.strings */,
 				FA2D8E821895E0F400FFAD29 /* main.m */,
 				FA2D8E841895E0F400FFAD29 /* Dockify-Prefix.pch */,
-				FA2D8E851895E0F400FFAD29 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +284,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA2D8EB11895E3B300FFAD29 /* dockify-loader */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D8EB21895E3B300FFAD29 /* main.c */,
+				FA2D8EC11895E53800FFAD29 /* inject.c */,
+				FA2D8EC21895E53800FFAD29 /* inject.h */,
+				FA2D8EB61895E3B300FFAD29 /* dockify_loader.1 */,
+				FA2D8EB41895E3B300FFAD29 /* Supporting Files */,
+				FAB4B5AC18960AB20000EEDA /* loader.plist */,
+				FAD577491896042900D5D50C /* launchd.plist */,
+			);
+			path = "dockify-loader";
+			sourceTree = "<group>";
+		};
+		FA2D8EB41895E3B300FFAD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D8EB51895E3B300FFAD29 /* dockify-loader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD1DE381895F22800AB6315 /* dockify-listener */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1DE391895F22800AB6315 /* Supporting Files */,
+			);
+			path = "dockify-listener";
+			sourceTree = "<group>";
+		};
+		FAD1DE391895F22800AB6315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1DE6D1895FDEF00AB6315 /* dockify.dylib */,
+				FAD1DE3A1895F22800AB6315 /* dockify-listener-Info.plist */,
+				FAD1DE3B1895F22800AB6315 /* InfoPlist.strings */,
+				FAD1DE3E1895F22800AB6315 /* main.m */,
+				FAD1DE401895F22800AB6315 /* dockify-listener-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,10 +336,14 @@
 				FA2D8E6F1895E0F400FFAD29 /* Sources */,
 				FA2D8E701895E0F400FFAD29 /* Frameworks */,
 				FA2D8E711895E0F400FFAD29 /* Resources */,
+				FA2D8EC61895E5B500FFAD29 /* Copy Loader */,
+				FAD1DE631895F24100AB6315 /* Copy Listener */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FAD1DE661895F40100AB6315 /* PBXTargetDependency */,
+				FA2D8EC51895E5A200FFAD29 /* PBXTargetDependency */,
 			);
 			name = Dockify;
 			productName = Dockify;
@@ -191,6 +367,41 @@
 			productName = DockifyTests;
 			productReference = FA2D8E941895E0F400FFAD29 /* DockifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2D8EAD1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D8EB81895E3B300FFAD29 /* Build configuration list for PBXNativeTarget "com.alexzielenski.dockify.loader" */;
+			buildPhases = (
+				FA2D8EAA1895E3B300FFAD29 /* Sources */,
+				FA2D8EAB1895E3B300FFAD29 /* Frameworks */,
+				FA2D8EAC1895E3B300FFAD29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.alexzielenski.dockify.loader;
+			productName = "dockify-loader";
+			productReference = FA2D8EAE1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */;
+			productType = "com.apple.product-type.tool";
+		};
+		FAD1DE351895F22800AB6315 /* dockify-listener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD1DE5D1895F22900AB6315 /* Build configuration list for PBXNativeTarget "dockify-listener" */;
+			buildPhases = (
+				FAD1DE321895F22800AB6315 /* Sources */,
+				FAD1DE331895F22800AB6315 /* Frameworks */,
+				FAD1DE341895F22800AB6315 /* Resources */,
+				FAD1DE6F1895FDFF00AB6315 /* Copy Payload */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dockify-listener";
+			productName = "dockify-listener";
+			productReference = FAD1DE361895F22800AB6315 /* dockify-listener.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,7 +432,9 @@
 			projectRoot = "";
 			targets = (
 				FA2D8E721895E0F400FFAD29 /* Dockify */,
+				FA2D8EAD1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */,
 				FA2D8E931895E0F400FFAD29 /* DockifyTests */,
+				FAD1DE351895F22800AB6315 /* dockify-listener */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +445,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2D8E811895E0F400FFAD29 /* InfoPlist.strings in Resources */,
+				FA88A1081899B322007C4171 /* Credits.html in Resources */,
 				FA2D8E8F1895E0F400FFAD29 /* Images.xcassets in Resources */,
-				FA2D8E871895E0F400FFAD29 /* Credits.rtf in Resources */,
-				FA2D8E8D1895E0F400FFAD29 /* MainMenu.xib in Resources */,
+				FADBB2CB1895EBFF0062ADDD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +459,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAD1DE341895F22800AB6315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD1DE3D1895F22800AB6315 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,6 +474,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADBB2D11895ED310062ADDD /* DKConstant.m in Sources */,
+				FADBB2CE1895ECB20062ADDD /* DKInstaller.m in Sources */,
 				FA2D8E831895E0F400FFAD29 /* main.m in Sources */,
 				FA2D8E8A1895E0F400FFAD29 /* DKAppDelegate.m in Sources */,
 			);
@@ -266,6 +489,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA2D8EAA1895E3B300FFAD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D8EC31895E53800FFAD29 /* inject.c in Sources */,
+				FA2D8EB31895E3B300FFAD29 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1DE321895F22800AB6315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD1DE3F1895F22800AB6315 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,6 +513,16 @@
 			isa = PBXTargetDependency;
 			target = FA2D8E721895E0F400FFAD29 /* Dockify */;
 			targetProxy = FA2D8E981895E0F400FFAD29 /* PBXContainerItemProxy */;
+		};
+		FA2D8EC51895E5A200FFAD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2D8EAD1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */;
+			targetProxy = FA2D8EC41895E5A200FFAD29 /* PBXContainerItemProxy */;
+		};
+		FAD1DE661895F40100AB6315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD1DE351895F22800AB6315 /* dockify-listener */;
+			targetProxy = FAD1DE651895F40100AB6315 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -285,26 +535,18 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FA2D8E851895E0F400FFAD29 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA2D8E861895E0F400FFAD29 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		FA2D8E8B1895E0F400FFAD29 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA2D8E8C1895E0F400FFAD29 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		FA2D8E9D1895E0F400FFAD29 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FA2D8E9E1895E0F400FFAD29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD1DE3B1895F22800AB6315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD1DE3C1895F22800AB6315 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -327,6 +569,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -364,6 +607,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -384,7 +628,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dockify/Dockify-Prefix.pch";
 				INFOPLIST_FILE = "Dockify/Dockify-Info.plist";
@@ -397,7 +643,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dockify/Dockify-Prefix.pch";
 				INFOPLIST_FILE = "Dockify/Dockify-Info.plist";
@@ -446,6 +694,100 @@
 			};
 			name = Release;
 		};
+		FA2D8EB91895E3B300FFAD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dockify-loader/dockify-loader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dockify-loader/loader.plist";
+				INFOPLIST_PREPROCESS = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"dockify-loader/loader.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"dockify-loader/launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2D8EBA1895E3B300FFAD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dockify-loader/dockify-loader-Prefix.pch";
+				INFOPLIST_FILE = "dockify-loader/loader.plist";
+				INFOPLIST_PREPROCESS = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"dockify-loader/loader.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"dockify-loader/launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD1DE5E1895F22900AB6315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dockify-listener/dockify-listener-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dockify-listener/dockify-listener-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Alex/Documents/Source/In\\ Progress/Dockify/dockify-listener",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD1DE5F1895F22900AB6315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dockify-listener/dockify-listener-Prefix.pch";
+				INFOPLIST_FILE = "dockify-listener/dockify-listener-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Alex/Documents/Source/In\\ Progress/Dockify/dockify-listener",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +807,7 @@
 				FA2D8EA61895E0F400FFAD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2D8EA71895E0F400FFAD29 /* Build configuration list for PBXNativeTarget "DockifyTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +816,25 @@
 				FA2D8EA91895E0F400FFAD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2D8EB81895E3B300FFAD29 /* Build configuration list for PBXNativeTarget "com.alexzielenski.dockify.loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D8EB91895E3B300FFAD29 /* Debug */,
+				FA2D8EBA1895E3B300FFAD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD1DE5D1895F22900AB6315 /* Build configuration list for PBXNativeTarget "dockify-listener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD1DE5E1895F22900AB6315 /* Debug */,
+				FAD1DE5F1895F22900AB6315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

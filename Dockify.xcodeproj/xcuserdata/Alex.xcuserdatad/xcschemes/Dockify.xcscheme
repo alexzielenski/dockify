@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Dockify.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAD1DE4F1895F22800AB6315"
+               BuildableName = "dockify-listenerTests.xctest"
+               BlueprintName = "dockify-listenerTests"
+               ReferencedContainer = "container:Dockify.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

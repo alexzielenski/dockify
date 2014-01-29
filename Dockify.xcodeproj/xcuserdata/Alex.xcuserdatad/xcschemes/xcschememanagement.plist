@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>dockify-listener.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>dockify-loader.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>FA2D8E931895E0F400FFAD29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA2D8EAD1895E3B300FFAD29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD1DE351895F22800AB6315</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD1DE4F1895F22800AB6315</key>
 		<dict>
 			<key>primary</key>
 			<true/>
