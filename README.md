@@ -84,7 +84,7 @@ Create a directory with the same name as your theme and place your desired files
 	</tbody>
 </table>
 
-** Any of the above images can also have a retina representation, simple append @2x after the filename, similarly to iPhone.
+** Any of the above images can also have a retina representation, simply append @2x after the filename and double the size, similarly to iPhone.
 
 *** All of the images not listed as required will be taken from the Dock's default resources if not present.
 
