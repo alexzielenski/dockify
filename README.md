@@ -1,5 +1,6 @@
 # Dockify
-***
+
+**Find the actual library source here: https://github.com/alexzielenski/dockify_library**
 
 A hack that modifies the Dock to work like it did pre-10.8. Allowing old dock themes to be compatible once again (and retina compatible).
 
