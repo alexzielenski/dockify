@@ -22,6 +22,8 @@
 		FA2D8EC71895E5B900FFAD29 /* com.alexzielenski.dockify.loader in Copy Loader */ = {isa = PBXBuildFile; fileRef = FA2D8EAE1895E3B300FFAD29 /* com.alexzielenski.dockify.loader */; };
 		FA88A1081899B322007C4171 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = FA88A1071899B322007C4171 /* Credits.html */; };
 		FA88A10A1899B415007C4171 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA88A1091899B415007C4171 /* WebKit.framework */; };
+		FA88A10C1899BDC8007C4171 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA88A10B1899BDC8007C4171 /* Sparkle.framework */; };
+		FA88A10E1899BDE3007C4171 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FA88A10B1899BDC8007C4171 /* Sparkle.framework */; };
 		FAD1DE3D1895F22800AB6315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD1DE3B1895F22800AB6315 /* InfoPlist.strings */; };
 		FAD1DE3F1895F22800AB6315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1DE3E1895F22800AB6315 /* main.m */; };
 		FAD1DE641895F24F00AB6315 /* dockify-listener.app in Copy Listener */ = {isa = PBXBuildFile; fileRef = FAD1DE361895F22800AB6315 /* dockify-listener.app */; };
@@ -81,6 +83,17 @@
 			name = "Copy Loader";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA88A10D1899BDD9007C4171 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA88A10E1899BDE3007C4171 /* Sparkle.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD1DE631895F24100AB6315 /* Copy Listener */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +146,7 @@
 		FA2D8EC21895E53800FFAD29 /* inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inject.h; sourceTree = "<group>"; };
 		FA88A1071899B322007C4171 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		FA88A1091899B415007C4171 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FA88A10B1899BDC8007C4171 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FAB4B5AC18960AB20000EEDA /* loader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = loader.plist; sourceTree = "<group>"; };
 		FAD1DE361895F22800AB6315 /* dockify-listener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dockify-listener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD1DE3A1895F22800AB6315 /* dockify-listener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dockify-listener-Info.plist"; sourceTree = "<group>"; };
@@ -157,6 +171,7 @@
 			files = (
 				FA88A10A1899B415007C4171 /* WebKit.framework in Frameworks */,
 				FADBB2C91895EAB60062ADDD /* ServiceManagement.framework in Frameworks */,
+				FA88A10C1899BDC8007C4171 /* Sparkle.framework in Frameworks */,
 				FADBB2C71895EAAE0062ADDD /* Security.framework in Frameworks */,
 				FA2D8E771895E0F400FFAD29 /* Cocoa.framework in Frameworks */,
 			);
@@ -248,6 +263,7 @@
 				FADBB2CF1895ED310062ADDD /* DKConstant.h */,
 				FADBB2D01895ED310062ADDD /* DKConstant.m */,
 				FA88A1071899B322007C4171 /* Credits.html */,
+				FA88A10B1899BDC8007C4171 /* Sparkle.framework */,
 				FADBB2CA1895EBFF0062ADDD /* MainMenu.xib */,
 				FA2D8E8E1895E0F400FFAD29 /* Images.xcassets */,
 				FA2D8E7D1895E0F400FFAD29 /* Supporting Files */,
@@ -338,6 +354,7 @@
 				FA2D8E711895E0F400FFAD29 /* Resources */,
 				FA2D8EC61895E5B500FFAD29 /* Copy Loader */,
 				FAD1DE631895F24100AB6315 /* Copy Listener */,
+				FA88A10D1899BDD9007C4171 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -631,6 +648,10 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Alex/Documents/Source/In\\ Progress/Dockify/Dockify",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dockify/Dockify-Prefix.pch";
 				INFOPLIST_FILE = "Dockify/Dockify-Info.plist";
@@ -646,6 +667,10 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Alex/Documents/Source/In\\ Progress/Dockify/Dockify",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dockify/Dockify-Prefix.pch";
 				INFOPLIST_FILE = "Dockify/Dockify-Info.plist";

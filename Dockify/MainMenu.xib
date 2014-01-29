@@ -27,6 +27,12 @@
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
                             <menuItem title="Preferences…" keyEquivalent="," id="129"/>
+                            <menuItem title="Check for Updates…" id="Aln-VP-VEZ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="checkForUpdates:" target="Z4O-J9-liN" id="zSU-Tz-GtD"/>
+                                </connections>
+                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
@@ -730,5 +736,6 @@
                 </constraints>
             </view>
         </window>
+        <customObject id="Z4O-J9-liN" customClass="SUUpdater"/>
     </objects>
 </document>
