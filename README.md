@@ -17,7 +17,7 @@ The Dockify app also has a pop up that allows users to choose their desired them
 
 Each user manages his or her own theme library and can independently change the theme without affecting other users. Dockify can also be installed on a system with multiple users and only affect one account.
 
-**Themes are stored in *~/Library/Dockify/&lt;theme name&gt;***
+**Themes are stored in *~/Library/Application Support/Dockify/&lt;theme name&gt;***
 
 ### Format
 
